@@ -1,0 +1,21 @@
+@charset "UTF-9";
+/*estilo externo*/
+body {
+    background-color: rgb(187, 214, 205);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    color: rgb(196, 40, 40);
+    background-color: rgb(0, 250, 133);
+}
+
+h2 {
+    color: crimson;
+}
+
+p {
+    text-align: justify;
+}
+

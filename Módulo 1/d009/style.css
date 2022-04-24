@@ -1,0 +1,17 @@
+img {
+    width: 200px;
+    display: inline-block;
+    height: 200px;
+    
+   
+
+}
+
+body {
+    background-color: black;
+}
+h1,p {
+    color: #fff;
+    text-align: center
+    ;
+}

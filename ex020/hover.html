@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        div > ul {
+            display: none;
+        }
+        div:hover > ul {
+            display: block;
+            color:black;
+            width: 200px;
+            
+            
+        }
+        div:hover {
+            color:  red;
+        }
+        ul {
+            list-style: none;
+            border: solid 1px;
+            border-radius: 5px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <ul>
+            <a href="pseudoclasse.html" target:_self><li >Menu</li></a>
+            <li>Mais...</li>
+        </ul>
+    </div>
+    <p>Fim do exercicio</p>
+    
+</body>
+</html>
